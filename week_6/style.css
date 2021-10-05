@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: darkolivegreen;
+    background-color: oldlace;
 }
 
 div {
@@ -26,11 +26,11 @@ div {
 }
 
 .special-text {
-    color: darkolivegreen;
+    color: firebrick;
 }
 
 .grid-item {
-    background-color: darkred;
+    background-color: sandybrown;
     display: inline-grid;
     border-radius: 30px;
     padding: 20px;
@@ -45,10 +45,7 @@ div {
 .body-section-left-top {
     grid-column-start: 1;
     grid-column-end: 1;
-    text-align: center;
-    
 }
-
 
 .body-section-right-top {
     grid-column-start: 2;
