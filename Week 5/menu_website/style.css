@@ -1,0 +1,79 @@
+.title-text {
+    padding-top: 0px;
+    margin-top: 0px;
+    color: black;
+    font-size: 35px;
+}
+
+.wherefrom-text {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size:20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+body {
+    background-color: darkolivegreen;
+}
+
+div {
+    color: black;
+}
+
+.special-text {
+    color: darkolivegreen;
+}
+
+.grid-item {
+    background-color: darkred;
+    display: inline-grid;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.header-section {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.body-section-left-top {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+    
+}
+
+
+.body-section-right-top {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.body-section-left-bottom {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.body-section-right-bottom {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+img {
+    max-height: 250px;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-text {
+    text-align: center;
+}

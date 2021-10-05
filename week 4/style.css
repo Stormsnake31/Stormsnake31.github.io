@@ -1,0 +1,33 @@
+body{font:40px 'Mukta', sans-serif;
+margin: auto;
+width: auto;
+background-color:cornsilk;
+border: thick firebrick;
+border-style:outset;}
+h1{text-align: center;
+color:firebrick;}
+h2{color:firebrick;}
+h3{color:firebrick}
+h4{color:firebrick}
+.biscuit1{align-content:center;}
+img {width:500px;
+height:500px;
+align-items: center;}
+.biscuit{padding: 30px 30px;
+border: thick firebrick;
+border-style:outset;
+background-color: blanchedalmond}
+.notes{padding: 30px 30px;
+border: thick firebrick;
+border-style:outset;
+background-color: blanchedalmond}
+.biscuit1{position: absolute;
+right: 300px;
+width: 500px;}
+ul.cook-time{color: white;
+padding: 30px;}
+ul.cook-time li {
+background:firebrick;
+margin: 5px;
+padding: 5px;}
+ol{list-style-position: inside;}
